@@ -1,0 +1,136 @@
+.header {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 20px;
+  }
+.nav {
+  border-right: 1px solid gray;
+  padding: 30px;
+  padding-right: 30px;
+  margin-right:10px;
+  }
+  .nav_title {
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+.nav_item {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.contents-all {
+  color: gray;
+  margin-top: 10px;
+  font-size: 11px;
+}
+.daily_info {
+  padding-left: 20px;
+  }
+.index_info {
+  gird-template-colums: 1fr 1fr 1fr;
+  display: flex;
+  }
+.box {
+  border: 1px solid gray;
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+  margin : 2px;
+  }
+.box_title{
+  margin-bottom: 20px;
+}
+.box_item {
+  font-size : 13px;
+  margin-top: 5px;
+
+  }
+#top {
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  padding-bottom: 15px;
+  }
+.folding_title {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin : 3px;
+  padding: 15px;
+}
+.pst_items {
+  margin : 3px;
+  padding: 15px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.pst {
+  margin : 3px;
+}
+@media(max-width:600px){
+  #top {
+    display: block;
+  }
+  .daily_info {
+    border-top: 1px solid gray;
+  }
+  .nav {
+    border-right: none;
+    display: block;
+  }
+}
+.category {
+  border-bottom: 1px solid gray;
+  padding-left: 10px;
+}
+.allpst {
+  color:green;
+  border-bottom: 1px solid gray;
+  padding: 15px;
+}
+.pstlist {
+  color: gray;
+  border-bottom: 0.5px solid lightgray;
+  padding: 10px;
+}
+.frame {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.cat-list {
+   margin-left: 40px;
+   margin-right: 40px;
+   padding-bottom: 30px;
+}
+.backhome {
+  text-align: right;
+  font-size: 12px;
+  color: green;
+  padding-bottom:4px;
+  padding-right:10px;
+}
+.pst_title {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-left: 20px;
+  margin:15px;
+}
+.pst {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.psts {
+  border-bottom: 1px solid gray;
+  padding:15px;
+  padding-bottom: 30px;
+  margin:15px;
+
+}
+.roll_button {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+#pst_category {
+  border: none;
+}
